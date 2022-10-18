@@ -1,1 +1,5 @@
-retrieves/
+# exclude everything
+retrieves/*
+
+# exception to the rule
+!retrieves/.gitkeep 

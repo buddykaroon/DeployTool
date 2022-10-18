@@ -1,9 +1,8 @@
 #retrieveProfileDev
 sfdx auth:list
-
-cd ..
 . constants.env
-SUBFILENAME=ProfileRetrieve-$(date +%Y%m%d%H%M%S)
+
+SUBFILENAME=ProfileRetrieve-$(date +%Y%m%d-%H%M%S)
 echo "Creating Project"  
 
 echo on
@@ -16,5 +15,5 @@ cp ../../packages/profileDestinationPackage.xml ./manifest/destinationPackage.xm
 node ../../helper/fixProfile.js ./manifest/sourcePackage.xml
 sfdx force:source:retrieve -x ./manifest/sourcePackage.xml -u $SFDEV_USERNAME > sfdxDevRetrieveLogs.txt
 cd ../..
-node ../../helper/removeCustomFieldsNotInSit.js  ./retrieves/%SUBFILENAME% 
-./validateSit.sh ./retrieves/$SUBFILENAME
+node ./helper/removeCustomFieldsNotInSit.js ./retrieves/$SUBFILENAME
+./macValidateSit.sh ./retrieves/$SUBFILENAME

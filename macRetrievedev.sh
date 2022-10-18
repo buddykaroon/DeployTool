@@ -1,6 +1,5 @@
-SUBFILENAME=StandardRetrieve-$(date +%Y%m%d%H%M%S)
+SUBFILENAME=StandardRetrieve-$(date +%Y%m%d-%H%M%S)
 sfdx auth:list
-cd ..
 . constants.env
 echo "Creating Project"
 cd ./retrieves
@@ -15,6 +14,6 @@ sfdx force:source:retrieve -x ./manifest/sourcePackage.xml -u $SFDEV_USERNAME > 
 
 cd ../..
 if [ "$1" == "-validate" ]; then 
-    ./validateSit.sh ./retrieves/$SUBFILENAME
+    ./macValidateSit.sh ./retrieves/$SUBFILENAME
 fi
 # xcopy $SUBFILENAME  $SUBFILENAME-raw  /h /i /c /k /e /r /y

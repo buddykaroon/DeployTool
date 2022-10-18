@@ -23,7 +23,9 @@
             "Case.Inbound_Email__c", 
             "FinServ__AccountAccountRelation__c.Roles__c", 
             "Lead.Current_Owner_is_Creator__c",
-            "Lead.Bypass_Validation__c"
+            "Lead.Bypass_Validation__c",
+            "Case.Account_Record_Type__c",
+            "Case.Owner_Top_Parent_Role__c"
         ]
     }
 ]

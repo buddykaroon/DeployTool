@@ -3,8 +3,8 @@ var path = require('path');
 var jsonData = require("./fixConfigs/CustomFieldsNotInSit.json");
 const myArgs = process.argv.slice(2);
 jsonData.forEach(config=>{
-  replaceAllinType('profiles',config.ignoreFields,config.isFile);
-  replaceAllinType('permissionsets',config.ignoreFields,config.isFile);
+  replaceAllinType("profiles",config.ignoreFields,config.isFile);
+  replaceAllinType("permissionsets",config.ignoreFields,config.isFile);
 });
 
 const xmlPrefix = "(\\s*)<fieldPermissions>\n(\\s*)<editable>(true|false)</editable>\n(\\s*)<field>";
@@ -29,6 +29,7 @@ function replaceAllinType(type,replaceArray,isFile)
           handlefile(spath + file.name,replaceArray);
         });  
       } catch (err) { 
+        console.log(err);
         console.log("No File specified at " + spath);
       }
     }
