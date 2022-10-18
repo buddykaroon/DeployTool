@@ -1,6 +1,6 @@
 #validateSit
 sfdx auth:list
-. constants.env
+. macCredentials.env
 echo "Validating to SIT"  
 echo $1
 node ./helper/fixMeta.js $1

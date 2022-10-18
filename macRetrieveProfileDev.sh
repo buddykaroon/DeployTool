@@ -1,6 +1,6 @@
 #retrieveProfileDev
 sfdx auth:list
-. constants.env
+. macCredentials.env
 
 SUBFILENAME=ProfileRetrieve-$(date +%Y%m%d-%H%M%S)
 echo "Creating Project"  

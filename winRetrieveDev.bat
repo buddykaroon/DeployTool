@@ -1,5 +1,6 @@
 call sfdx auth:list
-echo "Creating Project"  
+echo "Creating Project" 
+call winCredentials.bat
 set CUR_YYYY=%date:~10,4%
 set CUR_MM=%date:~4,2%
 set CUR_DD=%date:~7,2%
@@ -17,7 +18,7 @@ mkdir manifest
 copy ..\..\packages\sourcePackage.xml .\manifest\sourcePackage.xml
 copy ..\..\packages\sourcePackage.xml .\manifest\destinationPackage.xml
 echo ..\%~1
-call sfdx force:source:retrieve -x .\manifest\sourcePackage.xml -u ckaroonyavanich@salesforce.com.tcb.sfdev > sfdxDevRetrieveLogs.txt
+call sfdx force:source:retrieve -x .\manifest\sourcePackage.xml -u %SFDEV_USERNAME% > sfdxDevRetrieveLogs.txt
 cd ..
 cd ..
-if "%~1"=="-validate" (call validate_sit.bat .\retrieves\%SUBFILENAME%)
+if "%~1"=="-validate" (call winValidateSit.bat .\retrieves\%SUBFILENAME%)

@@ -1,6 +1,6 @@
 SUBFILENAME=StandardRetrieve-$(date +%Y%m%d-%H%M%S)
 sfdx auth:list
-. constants.env
+. macCredentials.env
 echo "Creating Project"
 cd ./retrieves
 sfdx force:project:create -n $SUBFILENAME

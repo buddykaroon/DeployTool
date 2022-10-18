@@ -1,5 +1,6 @@
 call sfdx auth:list
 echo "Creating Project"  
+call winCredentials.bat
 set CUR_YYYY=%date:~10,4%
 set CUR_MM=%date:~4,2%
 set CUR_DD=%date:~7,2%
@@ -17,9 +18,9 @@ mkdir manifest
 copy ..\..\packages\profileSourcePackage.xml .\manifest\sourcePackage.xml
 copy ..\..\packages\profileDestinationPackage.xml .\manifest\destinationPackage.xml
 call node ..\..\helper\fixProfile.js .\manifest\sourcePackage.xml
-call sfdx force:source:retrieve -x .\manifest\sourcePackage.xml -u ckaroonyavanich@salesforce.com.tcb.sfdev > sfdxDevRetrieveLogs.txt
+call sfdx force:source:retrieve -x .\manifest\sourcePackage.xml -u  %SFDEV_USERNAME% > sfdxDevRetrieveLogs.txt
 
 cd ..
 cd ..
 call node ./helper/removeCustomFieldsNotInSit.js .\retrieves\%SUBFILENAME% 
-if "%~1"=="-validate" (call validate_sit.bat .\retrieves\%SUBFILENAME%)
+if "%~1"=="-validate" (call winValidateSit.bat .\retrieves\%SUBFILENAME%)
