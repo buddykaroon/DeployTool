@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-
-  
 	<types>
 		<members>Encryption</members>
 		<members>Event_Monitoring_App</members>
@@ -299,12 +297,6 @@
 		<name>Profile</name>
 	</types> 
 
-<!-- Dependencies <types> 
-  
-  <members>TCB System Administrator</members>
-  <members>TCB - BB Sales</members>
-  <members>TCB - WB Sales RM</members>
-  <name>Profile</name>
-	</types>  -->
+<!-- Dependencies  -->
 	<version>55.0</version>
 </Package>
