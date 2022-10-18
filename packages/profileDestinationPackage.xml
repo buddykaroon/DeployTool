@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+  
+	<types>
+		<members>Encryption</members>
+		<members>Event_Monitoring_App</members>
+		<members>Sales_User</members>
+		<members>TCB_Access_Omni_Supervisor</members>
+		<members>TCB_Additional_Account_Contact_Rel_Permission</members>
+		<members>TCB_All_Apex_Class_Access</members>
+		<members>TCB_All_BU_Common_Access</members>
+		<members>TCB_Area_Regional_Director_BD</members>
+		<members>TCB_BBC_Director_Hub_Manager</members>
+		<members>TCB_BB_BIS</members>
+		<members>TCB_BB_BIS_Manager</members>
+		<members>TCB_BB_CSM</members>
+		<members>TCB_BB_Common</members>
+		<members>TCB_BB_GTS</members>
+		<members>TCB_BB_HO</members>
+		<members>TCB_BB_HO_sales_Officer_SPCM</members>
+		<members>TCB_BB_Head</members>
+		<members>TCB_BB_PM</members>
+		<members>TCB_BB_RM</members>
+		<members>TCB_BB_Services_CCC_GTS_services</members>
+		<members>TCB_CA_Common</members>
+		<members>TCB_CA_Expert_Officer</members>
+		<members>TCB_CA_Head</members>
+		<members>TCB_CA_Manager</members>
+		<members>TCB_CCC_Common</members>
+		<members>TCB_CORP_CA_PS</members>
+		<members>TCB_CORP_IT_PS</members>
+		<members>TCB_CORP_MKT_PS</members>
+		<members>TCB_CX_Common</members>
+		<members>TCB_Case_Additional_permissions</members>
+		<members>TCB_Case_Mgmt</members>
+		<members>TCB_Chatter_User</members>
+		<members>TCB_Convert_Leads</members>
+		<members>TCB_Data_Import_Wizard</members>
+		<members>TCB_GTS_Common</members>
+		<members>TCB_GTS_Corporate_Service_Gov_Agent</members>
+		<members>TCB_GTS_Corporate_Service_Gov_Manager</members>
+		<members>TCB_GTS_Corporate_Support_Service_Gov_Agent_PS</members>
+		<members>TCB_GTS_Corporate_Supporting_Service_Agent</members>
+		<members>TCB_GTS_Corporate_Supporting_Service_Manager</members>
+		<members>TCB_GTS_Customer_Service_Director</members>
+		<members>TCB_GTS_Customer_Service_Manager_PS</members>
+		<members>TCB_GTS_Head</members>
+		<members>TCB_GTS_Product_Solution_Agent_PS</members>
+		<members>TCB_GTS_Product_Solution_Director</members>
+		<members>TCB_GTS_Product_Solution_Expert</members>
+		<members>TCB_IT_Common</members>
+		<members>TCB_IT_Expert_Officer</members>
+		<members>TCB_IT_Head</members>
+		<members>TCB_IT_RBT_Manager</members>
+		<members>TCB_Integration_Allow_import_to_system_fields</members>
+		<members>TCB_MKT_Common</members>
+		<members>TCB_MKT_Head</members>
+		<members>TCB_MKT_Retail_Marketing_Expert_Officer</members>
+		<members>TCB_MKT_Retail_Marketing_Manager</members>
+		<members>TCB_Manage_Reports_Dashboards</members>
+		<members>TCB_Manage_email_templates</members>
+		<members>TCB_OPS_Call_Center_Agent</members>
+		<members>TCB_OPS_Call_Center_Head</members>
+		<members>TCB_OPS_Call_Center_Manager</members>
+		<members>TCB_OPS_Common</members>
+		<members>TCB_OPS_Corporate_Call_Center_Agent</members>
+		<members>TCB_OPS_Corporate_Call_Center_Manager</members>
+		<members>TCB_OPS_Corporate_Call_Center_Supervisor</members>
+		<members>TCB_OPS_Credit_Processing_Agent</members>
+		<members>TCB_OPS_Credit_Processing_Director</members>
+		<members>TCB_OPS_Customer_Service_Agent</members>
+		<members>TCB_OPS_Customer_Service_Director</members>
+		<members>TCB_OPS_Head</members>
+		<members>TCB_RBG_Area_manager</members>
+		<members>TCB_RBG_BM</members>
+		<members>TCB_RBG_CSO</members>
+		<members>TCB_RBG_Common</members>
+		<members>TCB_RBG_Head_of_Omnichannel_HO</members>
+		<members>TCB_RBG_PM</members>
+		<members>TCB_RBG_RBG_head</members>
+		<members>TCB_RBG_RBO_PS</members>
+		<members>TCB_RBG_RBO_SRBO_old</members>
+		<members>TCB_RBG_SRBO_PS</members>
+		<members>TCB_RBG_SS_CSM_CS_Controller</members>
+		<members>TCB_RBG_Service_Common</members>
+		<members>TCB_RBG_Telesales</members>
+		<members>TCB_Retail_Marketing_Expert_Officer</members>
+		<members>TCB_Retail_Marketing_Manager</members>
+		<members>TCB_SME_MM_USME_Manager</members>
+		<members>TCB_Send_Emails</members>
+		<members>TCB_Service_Entitlement</members>
+		<members>TCB_Service_Master_Data</members>
+		<members>TCB_View_and_Run_Reports_Dashboards</members>
+		<members>TCB_WB_BM</members>
+		<members>TCB_WB_Business_Finance_User</members>
+		<members>TCB_WB_Common</members>
+		<members>TCB_WB_Country_Head_Sales</members>
+		<members>TCB_WB_IB_GTS_Sales</members>
+		<members>TCB_WB_RM</members>
+		<members>TCB_WB_Sales_manager</members>
+		<members>TCB_WB_Segment_Head_Sales</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>TCB_BB_Area_Regional_Director</members>
+		<members>TCB_BB_BBC_CSM_PSG</members>
+		<members>TCB_BB_BBC_Head_PSG</members>
+		<members>TCB_BB_BIS_Head_PSG</members>
+		<members>TCB_BB_BIS_Manager_PSG</members>
+		<members>TCB_BB_CSM_PSG</members>
+		<members>TCB_BB_Director_Hub_Manager_PSG</members>
+		<members>TCB_BB_GTS_PSG</members>
+		<members>TCB_BB_HO_Officer_PSG</members>
+		<members>TCB_BB_HO_Sales_Planning_Officer_PSG</members>
+		<members>TCB_BB_Head_PSG</members>
+		<members>TCB_BB_Hub_Team_Manager</members>
+		<members>TCB_BB_Hub_Team_PM</members>
+		<members>TCB_BB_MM_USME_Head_PSG</members>
+		<members>TCB_BB_MM_USME_MSME_Head_PSG</members>
+		<members>TCB_BB_MM_USME_Manager_PSG</members>
+		<members>TCB_BB_MM_USME_RM_PSG</members>
+		<members>TCB_BB_MM_USME_Region_Head_PSG</members>
+		<members>TCB_BB_PMH_MM_USME_RM</members>
+		<members>TCB_BB_PM_Manager_PSG</members>
+		<members>TCB_BB_PM_PSG</members>
+		<members>TCB_BB_RM_PSG</members>
+		<members>TCB_BB_SMEMMUSME_Manager_PSG</members>
+		<members>TCB_BB_SME_MSME_Head_PSG</members>
+		<members>TCB_CA_Head_PSG</members>
+		<members>TCB_CA_expert_Officer_PSG</members>
+		<members>TCB_CA_manager_PSG</members>
+		<members>TCB_CORP_CA_Expert_PSG</members>
+		<members>TCB_CORP_CA_Manager</members>
+		<members>TCB_CORP_CA_Manager_PSG</members>
+		<members>TCB_CORP_IT_Expert_PSG</members>
+		<members>TCB_CORP_IT_Manager_PSG</members>
+		<members>TCB_CORP_MKT_Expert_PSG</members>
+		<members>TCB_CORP_MKT_Manager_PSG</members>
+		<members>TCB_GTS_Corporate_Service_Gov_Agent_PSG</members>
+		<members>TCB_GTS_Corporate_Service_Gov_Manager_PSG</members>
+		<members>TCB_GTS_Corporate_Supporting_Service_Agent_PSG</members>
+		<members>TCB_GTS_Corporate_Supporting_Service_Manager_PSG</members>
+		<members>TCB_GTS_Customer_Service_Director_PSG</members>
+		<members>TCB_GTS_Head_PSG</members>
+		<members>TCB_GTS_Product_Solution_Agent_PSG</members>
+		<members>TCB_GTS_Product_Solution_Director_PSG</members>
+		<members>TCB_GTS_Product_Solution_Expert_PSG</members>
+		<members>TCB_GTS_Product_Solution_Manager_PSG</members>
+		<members>TCB_GTS_Service_Head_PSG</members>
+		<members>TCB_IT_Head_PSG</members>
+		<members>TCB_IT_RBT_Head_PSG</members>
+		<members>TCB_IT_RBT_Manager_PSG</members>
+		<members>TCB_IT_expert_Officer_PSG</members>
+		<members>TCB_MKT_Head_PSG</members>
+		<members>TCB_MKT_Manager_PSG</members>
+		<members>TCB_MKT_Retail_Marketing_Expert_Officer_PSG</members>
+		<members>TCB_MKT_Retail_Marketing_Manager_PSG</members>
+		<members>TCB_MKT_expert_Officer_PSG</members>
+		<members>TCB_Mandatory_All_BU_PSG</members>
+		<members>TCB_OPS_Call_Center_Agent_PSG</members>
+		<members>TCB_OPS_Call_Center_Head_PSG</members>
+		<members>TCB_OPS_Call_Center_Manager_PSG</members>
+		<members>TCB_OPS_Corporate_Call_Center_Agent_PSG</members>
+		<members>TCB_OPS_Corporate_Call_Center_Manager_PSG</members>
+		<members>TCB_OPS_Corporate_Call_Center_Supervisor_PSG</members>
+		<members>TCB_OPS_Credit_Processing_Agent_PSG</members>
+		<members>TCB_OPS_Credit_Processing_Director_PSG</members>
+		<members>TCB_OPS_Credit_Processing_Manager_PSG</members>
+		<members>TCB_OPS_Customer_Service_Agent_PSG</members>
+		<members>TCB_OPS_Customer_Service_Director_PSG</members>
+		<members>TCB_OPS_Customer_Service_Manager_PSG</members>
+		<members>TCB_OPS_HO_Ops_Unit_Mgr_PSG</members>
+		<members>TCB_OPS_HO_Unit_Manager_PSG</members>
+		<members>TCB_OPS_Head_PSG</members>
+		<members>TCB_OPS_expert_Officer_PSG</members>
+		<members>TCB_RBG_ARM_PSG</members>
+		<members>TCB_RBG_Area_Managers</members>
+		<members>TCB_RBG_BM_PSG</members>
+		<members>TCB_RBG_Banca_Direct_Sales_Manager_PSG</members>
+		<members>TCB_RBG_Banca_Direct_Sales_Team_Leader_PSG</members>
+		<members>TCB_RBG_Banca_PSG</members>
+		<members>TCB_RBG_Business_Development_Expert_PSG</members>
+		<members>TCB_RBG_Business_Development_Manager_PSG</members>
+		<members>TCB_RBG_CAP_Head_PSG</members>
+		<members>TCB_RBG_CAP_Manager_PSG</members>
+		<members>TCB_RBG_CAP_expert_Officer_PSG</members>
+		<members>TCB_RBG_CFM_Head_PSG</members>
+		<members>TCB_RBG_CFM_manager_PSG</members>
+		<members>TCB_RBG_CSO_PSG</members>
+		<members>TCB_RBG_CSO_PSG_DONTUSE</members>
+		<members>TCB_RBG_CS_Controller_PSG</members>
+		<members>TCB_RBG_CS_Manager_PSG</members>
+		<members>TCB_RBG_CX_Head_PSG</members>
+		<members>TCB_RBG_CX_Manager_PSG</members>
+		<members>TCB_RBG_CX_expert_Officer_PSG</members>
+		<members>TCB_RBG_Capability_Development_Director_PSG</members>
+		<members>TCB_RBG_Capability_Development_ExpertOfficer_PSG</members>
+		<members>TCB_RBG_Capability_Development_Head_PSG</members>
+		<members>TCB_RBG_HBG_Prov_Manager_PSG</members>
+		<members>TCB_RBG_Head_PSG</members>
+		<members>TCB_RBG_Head_of_Omni_Channel_PSG</members>
+		<members>TCB_RBG_INS_BA_ExpertOfficer_PSG</members>
+		<members>TCB_RBG_INS_BA_Manager_PSG</members>
+		<members>TCB_RBG_INS_Solution_Manager_PSG</members>
+		<members>TCB_RBG_MG_Direct_Sales_Manager_PSG</members>
+		<members>TCB_RBG_MG_Operation_Manager_PSG</members>
+		<members>TCB_RBG_MG_Operation_Team_Leader_PSG</members>
+		<members>TCB_RBG_MG_Operation_Team_member_Teller_PSG</members>
+		<members>TCB_RBG_MG_Sales_Team_Lead_PSG</members>
+		<members>TCB_RBG_MG_Sales_Team_Manager_PSG</members>
+		<members>TCB_RBG_MG_Sales_Team_RBO_PSG</members>
+		<members>TCB_RBG_MG_Sales_Team_SS_PSG</members>
+		<members>TCB_RBG_Operational_Risk_ExpertOfficer_PSG</members>
+		<members>TCB_RBG_Operational_Risk_Head_PSG</members>
+		<members>TCB_RBG_Operational_Risk_Manager_PSG</members>
+		<members>TCB_RBG_PBC_Manager_PSG</members>
+		<members>TCB_RBG_PBC_Team_Lead_PSG</members>
+		<members>TCB_RBG_PFS_RBO_Manager_PSG</members>
+		<members>TCB_RBG_PFS_RBO_Team_Lead_PSG</members>
+		<members>TCB_RBG_PM_PSG</members>
+		<members>TCB_RBG_PRM_PSG</members>
+		<members>TCB_RBG_RBO_PSG</members>
+		<members>TCB_RBG_Region_Head_PSG</members>
+		<members>TCB_RBG_Region_PRM</members>
+		<members>TCB_RBG_Region_RBO</members>
+		<members>TCB_RBG_Region_SRBO</members>
+		<members>TCB_RBG_Risk_Operations_ExpertOfficer_PSG</members>
+		<members>TCB_RBG_Risk_Operations_Head_PSG</members>
+		<members>TCB_RBG_Risk_Operations_Manager_PSG</members>
+		<members>TCB_RBG_SRBO_PSG</members>
+		<members>TCB_RBG_SRBO_PSG_DONTUSE</members>
+		<members>TCB_RBG_SS_PSG</members>
+		<members>TCB_RBG_TELLER_PSG</members>
+		<members>TCB_RBG_TIS_PSG</members>
+		<members>TCB_RBG_Telesales_Agent_PSG</members>
+		<members>TCB_RBG_Telesales_Manager_PSG</members>
+		<members>TCB_RBG_Telesales_Team_Leader_PSG</members>
+		<members>TCB_RBG_Teller</members>
+		<members>TCB_WB_BM_PSG</members>
+		<members>TCB_WB_Business_Finance_PSG</members>
+		<members>TCB_WB_Business_Management_Head_PSG</members>
+		<members>TCB_WB_GTS_Head_Sales_PSG</members>
+		<members>TCB_WB_GTS_Sales_PSG</members>
+		<members>TCB_WB_Head_PSG</members>
+		<members>TCB_WB_Head_Sales_PSG</members>
+		<members>TCB_WB_IB_Sales_Head_PSG</members>
+		<members>TCB_WB_IB_Sales_PSG</members>
+		<members>TCB_WB_RM_PSG</members>
+		<members>TCB_WB_SRM_PSG</members>
+		<members>TCB_WB_Segment_Head_Sales_PSG</members>
+		<members>TCB_WB_Team_FinServ_RM</members>
+    <members>TCB_BB_BIS_PSG</members>
+		<name>PermissionSetGroup</name>
+	</types>
+	<types>
+		<members>API Only</members>
+		<members>Admin</members>
+		<members>Analytics Cloud Integration User</members>
+		<members>Analytics Cloud Security User</members>
+		<members>Chatter External User</members>
+		<members>Chatter Free User</members>
+		<members>Chatter Moderator User</members>
+		<members>ContractManager</members>
+		<members>End User</members>
+		<members>Executive Sponsor</members>
+		<members>Guest License User</members>
+		<members>Identity User</members>
+		<members>MarketingProfile</members>
+		<members>Minimum Access - Salesforce</members>
+		<members>Read Only</members>
+		<members>Service Agent</members>
+		<members>Service Supervisor</members>
+		<members>SolutionManager</members>
+		<members>Standard</members>
+		<members>TCB - BB Sales</members>
+		<members>TCB - BB Sales PM</members>
+		<members>TCB - BB Sales RM</members>
+		<members>TCB - RBG Sales</members>
+		<members>TCB - RBG Sales PRM</members>
+		<members>TCB - RBG Sales RBO</members>
+		<members>TCB - WB Sales</members>
+		<members>TCB - WB Sales RM</members>
+		<members>TCB CA</members>
+		<members>TCB GTS</members>
+		<members>TCB IT</members>
+		<members>TCB Integration Only</members>
+		<members>TCB MKT</members>
+		<members>TCB Migration Only</members>
+		<members>TCB OPS</members>
+		<members>TCB OPS - Corporate</members>
+		<members>TCB OPS - Retail</members>
+		<members>TCB Sales Read Only</members>
+		<members>TCB Service</members>
+		<members>TCB Service ReadOnly</members>
+		<members>TCB System Administrator</members>
+		<members>TCB%28DON%27T USE%29 - BB Sales Convert</members>
+		<members>TCB%28DON%27T USE%29 - RBG Sales Convert</members>
+		<name>Profile</name>
+	</types> 
+
+<!-- Dependencies <types> 
+  
+  <members>TCB System Administrator</members>
+  <members>TCB - BB Sales</members>
+  <members>TCB - WB Sales RM</members>
+  <name>Profile</name>
+	</types>  -->
+	<version>55.0</version>
+</Package>

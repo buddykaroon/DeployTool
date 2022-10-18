@@ -1,0 +1,130 @@
+[
+    {
+        "isFile" : false ,
+        "type" : "dashboards/TCB_BB",
+        "replaceConfig" : [
+            {
+                "from" : "<runningUser>hruan@tcb.com</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            },
+            {
+                "from" : "<runningUser>gcante@salesforce.com.tcb</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            },
+            {
+                "from" : "<runningUser>bakundi@techcombank.com.vn.sfev</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            }
+        ]
+    },
+    {
+        "isFile" : false ,
+        "type" : "dashboards/TCB_WB",
+        "replaceConfig" : [
+            {
+                "from" : "<runningUser>hruan@tcb.com</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            },
+            {
+                "from" : "<runningUser>gcante@salesforce.com.tcb</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            },
+            {
+                "from" : "<runningUser>bakundi@techcombank.com.vn.sfev</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            }
+        ]
+    },  {
+        "isFile" : false ,
+        "type" : "dashboards/TCB_RBG",
+        "replaceConfig" : [
+            {
+                "from" : "<runningUser>hruan@tcb.com</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            },
+            {
+                "from" : "<runningUser>gcante@salesforce.com.tcb</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            },
+            {
+                "from" : "<runningUser>bakundi@techcombank.com.vn.sfev</runningUser>",
+                "to" :  "<runningUser>longtv4@force.com.sitanduat</runningUser>"
+            }
+        ]
+    }, 
+    
+    {
+        "isFile" : false ,
+        "type" : "entitlementProcesses",
+        "replaceConfig" : [
+            {
+                "from" : "<actions>\\n*\\s*<name>Case.",
+                "to" :  "<actions><name>"
+            },
+            {
+                "from" : "<successActions>\\n*\\s*<name>Case.", 
+                "to" : "<successActions><name>"
+            }
+        ]
+    },
+    {
+        "isFile" : true ,
+        "type" : "objects/Product2/Product2.object-meta.xml",
+        "replaceConfig" : [
+            {
+                "from" : "<enableDataTranslation>true</enableDataTranslation>",
+                "to" :  ""
+            }
+        ]
+    },
+    {
+        "isFile" : true ,
+        "type" : "workflows/Lead.workflow-meta.xml",
+        "replaceConfig" : [
+            {
+                "from" : "<lookupValue>thdang2@techcombank.com.vn</lookupValue>",
+                "to" :  "<lookupValue>ckaroonyavanich@salesforce.com.situat</lookupValue>"
+            }
+        ]
+    },
+    {
+        "isFile" : true ,
+        "type" : "workflows/Case.workflow-meta.xml",
+        "replaceConfig" : [
+            {
+                "from" : "<senderAddress>ssetasuk@salesforce.com</senderAddress>",
+                "to" :  "<senderAddress>ckaroonyavanich@salesforce.com</senderAddress>"
+            },
+            {
+                "from" : "<lookupValue>ssetasuk@salesforce.com.tcb</lookupValue>",
+                "to" :  "<lookupValue>ckaroonyavanich@salesforce.com.situat</lookupValue>"
+            },
+            {
+                "from" : "<lookupValue>ca.mgr@techcombank.com.vn</lookupValue>",
+                "to" :  "<lookupValue>caman@ps8.sit</lookupValue>"
+            }
+        ]
+    },
+    
+    {
+        "isFile" : false ,
+        "__comment" :"====== This is exmaple for replace whole tag ======",
+        "type" : "",
+        "replaceConfig" : [
+            {
+                "__comment" :" replace line feed to other word.",
+                "from" : "\\n",
+                "to" :  "xxxxBRxxxx"
+            },
+            {
+                "from" : "<actions>(.+?||\\s*)</actions>",
+                "to" :  ""
+            },
+            {
+                "__comment" :" replace replaced word to line feed.",
+                "from" : "xxxxBRxxxx",
+                "to" :  "\n"
+            }
+        ]
+    }
+]

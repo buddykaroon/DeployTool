@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ExternalDynamicListController</members>
+		<members>ExternalDynamicListController_Test</members>
+		<members>ViewFileController</members>
+		<members>ViewFileControllerTest</members>
+		<members>ExternalListComponentController</members>
+		<members>ExternalListComponentController_Test</members>
+		<members>TempPerm_Test</members>
+		<members>TempPerm_Test_Cas</members>
+		<members>ServiceForm</members>
+		<members>ServiceForm_Test</members>
+		<members>SystemInterface</members>
+		<members>MasterInterface</members>
+		<members>OverwrittenTestClass</members>
+		<members>HttpCalloutMockImpl</members>
+		<members>BatchMaster</members>
+		<members>BatchMasterTest</members>
+		<members>ServiceForm</members>
+		<members>ServiceForm_Test</members>
+		<name>ApexClass</name>
+	</types>
+
+	<types>
+		<name>FlexiPage</name>
+		<members>Interface_Framework_Test_Page</members>
+	</types>
+	<types>
+		<name>ApexPage</name>
+		<members>ViewFilePage</members>
+	</types>
+	<types>
+		<name>AuraDefinitionBundle</name>
+		<members>ServiceForm</members>
+		<members>ExternalDynamicListComponent</members>
+		<members>AdhocPromotionComponent</members>
+		<members>ViewFileComponent</members>
+		<members>ExternalListComponent</members>
+	</types>
+	<version>55.0</version>
+</Package>

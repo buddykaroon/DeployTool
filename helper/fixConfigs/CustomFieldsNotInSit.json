@@ -1,0 +1,29 @@
+[
+    {
+        "isFile" : false ,
+        "ignoreFields" : [
+            "Case.CategoryGTS__c",
+            "Case.Contact_Person_Salutation__c",
+            "Case.ItemGTS__c", 
+            "Case.SubCategoryGTS__c",
+            "Case.SubCategoryandItemGTS__c",
+            "Case.TopicGTS__c",
+            "Case.TopicandCategoryGTS__c",
+            "Event.Owner_Region__c",
+            "Event.Owner_Team__c",
+            "TCB_Master_Data_Service__c.CategoryID__c", 
+            "TCB_Master_Data_Service__c.ItemID__c", 
+            "TCB_Master_Data_Service__c.SubCategoryandItemID__c", 
+            "TCB_Master_Data_Service__c.Sub_Category_ID__c", 
+            "TCB_Master_Data_Service__c.TopicID__c", 
+            "TCB_Master_Data_Service__c.TopicandCategoryID__c", 
+            "Task.Owner_Region__c", 
+            "Task.Owner_Team__c", 
+            "AccountContactRelation.Role__c", 
+            "Case.Inbound_Email__c", 
+            "FinServ__AccountAccountRelation__c.Roles__c", 
+            "Lead.Current_Owner_is_Creator__c",
+            "Lead.Bypass_Validation__c"
+        ]
+    }
+]

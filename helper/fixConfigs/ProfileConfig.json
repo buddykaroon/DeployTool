@@ -1,0 +1,69 @@
+[
+   
+    {
+        "from" : "<members>Account.TCB_RB_Retail_Account</members>",
+        "to" :  "<members>PersonAccount.TCB_RB_Retail_Account</members>"
+    },
+    {
+        "from" : "<members>Account.TCB_RB_Retail_Account_Readonly</members>",
+        "to" :  "<members>PersonAccount.TCB_RB_Retail_Account_Readonly</members>"
+    },
+    {"from":"<members>FinServ__AccountAccountRelation__c-Account Account Relation Layout</members>", 
+    "to":"<members>FinServ__AccountAccountRelation__c-FinServ__Account Account Relation Layout</members>"},
+   
+    {"from":"<members>FinServ__Alert__c-Alert Layout</members>", "to":"<members>FinServ__Alert__c-FinServ__Alert Layout</members>"},
+
+    {"from":"<members>FinServ__FinancialGoal__c-Financial Goal Layout</members>", "to":"<members>FinServ__FinancialGoal__c-FinServ__Financial Goal Layout</members>"},
+    {"from":"<members>FinServ__LifeEvent__c-Life Event Layout</members>", "to":"<members>FinServ__LifeEvent__c-FinServ__Life Event Layout</members>"},
+    {"from":"<members>FinServ__Card__c-Card Layout</members>", "to":"<members>FinServ__Card__c-FinServ__Card Layout</members>"},
+    {"from":"<members>FinServ__ContactContactRelation__c-Contact-Contact Relationship Layout</members>",
+     "to":"<members>FinServ__ContactContactRelation__c-FinServ__Contact-Contact Relationship Layout</members>"},
+     {"from":"<members>FinServ__ContactContactRelation__c-Contact Contact Relation Layout</members>",
+     "to":"<members>FinServ__ContactContactRelation__c-FinServ__Contact Contact Relation Layout</members>"},
+
+    {"from":"<members>FinServ__FinancialAccountRole__c-Contact Role Layout</members>",
+     "to":"<members>FinServ__FinancialAccountRole__c-FinServ__Contact Role Layout</members>"},
+
+     {"from":"<members>Case-Case %28FSC%29 Layout</members>",
+      "to":"<members>Case-FinServ__Case %28FSC%29 Layout</members>"},
+      {"from":"<members>FinServ__FinancialAccountRole__c-Account Role Layout</members>",
+      "to":"<members>FinServ__FinancialAccountRole__c-FinServ__Account Role Layout</members>"},
+      {"from":"<members>FinServ__FinancialAccountRole__c-Contact Role Layout</members>",
+      "to":"<members>FinServ__FinancialAccountRole__c-FinServ__Contact Role Layout</members>"},
+      {"from":"<members>Global-RB Global Layout</members>",
+      "to":"<members>Global-FinServ__RB Global Layout</members>"},
+
+      
+      
+      
+     {"from":"<members>FinServ__AccountAccountRelation__c-Account-Account Relationship Layout</members>",
+     "to":"<members>FinServ__AccountAccountRelation__c-FinServ__Account-Account Relationship Layout</members>"},
+
+     
+     {"from":"<members>Account-Account %28Institution%29 Layout</members>",
+     "to":"<members>Account-FinServ__Account %28Institution%29 Layout</members>"},
+
+     
+     {"from":"<members>Account-Account %28Household%29 Layout</members>",
+     "to":"<members>Account-FinServ__Account %28Institution%29 Layout</members>"},
+     {"from":"<members>leadScoring__LeadScoringRule__c-Lead Scoring Rule Layout</members>",
+     "to":"<members>leadScoring__LeadScoringRule__c-leadScoring__Lead Scoring Rule Layout</members>"},
+
+     {"from":"<members>FinServ__FinancialAccount__c-Financial Account %28General%29 Layout</members>",
+     "to":"<members>FinServ__FinancialAccount__c-FinServ__Financial Account %28General%29 Layout</members>"},
+     {"from":"<members>Opportunity-Opportunity %28General%29 Layout</members>",
+     "to":"<members>Opportunity-FinServ__Opportunity %28General%29 Layout</members>"},
+
+     {"from":"<members>Lead-Lead %28General%29 Layout</members>",
+     "to":"<members>Lead-FinServ__Lead %28General%29 Layout</members>"},
+
+     {"from":"<members>Contact-Contact %28Business%29 Layout</members>",
+     "to":"<members>Contact-FinServ__Contact %28Business%29 Layout</members>"},
+     {"from":"<members>Account-Account %28Individual%29 Layout</members>",
+     "to":"<members>Account-FinServ__Account %28Individual%29 Layout</members>"},
+
+   {"from": "<members>CredentialStuffingEventStore</members>" , "to" : ""}
+	
+
+]
+

@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types> <name>ApexClass</name>
+		<members>*</members>
+	</types>
+	<types> <name>ApexPage</name>
+		<members>*</members>
+	</types>
+	<types><name>CustomApplication</name>
+		<members>FinServ__BankingConsoleFinancialServicesCloud</members>
+		<members>FinServ__CommBankingConsoleFinancialServicesCloud</members>
+		<members>FinServ__FSC_Lightning</members>
+		<members>FinServ__FinancialServicesCloud</members>
+		<members>FinServ__FinancialServicesCloudRetailBanking</members>
+		<members>FinServ__InsuranceConsoleFinancialServicesCloud</members>
+		<members>Lead_Generation</members>
+		<members>LoggerConsole</members>
+		<members>Relationship_Management</members>
+		<members>Sales_Leadership</members>
+		<members>Sales_Operations</members>
+		<members>TCB_BB</members>
+		<members>TCB_CA</members>
+		<members>TCB_CA_Console</members>
+		<members>TCB_GTS_Console</members>
+		<members>TCB_GTS</members>
+		<members>TCB_IT</members>
+		<members>TCB_IT_Console</members>
+		<members>TCB_MKT</members>
+		<members>TCB_MKT_Console</members>
+		<members>TCB_OPS</members>
+		<members>TCB_OPS_Console</members>
+		<members>TCB_OPS_Corporate_Customer_Service</members>
+		<members>TCB_OPS_Retail_Customer_Service</members>
+		<members>TCB_OPS_Corporate_CC_Console</members>
+		<members>TCB_OPS_Retail_CC_Console</members>
+		<members>TCB_RBG</members>
+		<members>TCB_Service</members>
+		<members>TCB_Service_Console</members>
+		<members>TCB_WB</members>
+		<members>leadScoring__Lead_Scoring</members>
+		<members>standard__Insights</members>
+		<members>standard__Marketing</members>
+		<members>standard__OnlineSales</members>
+		<members>standard__Platform</members>
+		<members>standard__Sales</members>
+		<members>standard__SalesforceCMS</members>
+		<members>standard__Service</members>
+		<members>standard__ServiceConsole</members>
+	</types>
+	<types><name>CustomField</name>
+	    <members>Case.Contact_Email__c</members>
+	    <members>Case.Contact_Phone__c</members>
+	    <members>Case.Person_Contact_Last_Name__c</members>
+	    <members>Case.Person_Contact_First_Name__c</members>
+	    <members>Case.Issue_level_1__c</members>
+	    <members>Case.Issue_Level_2__c</members>
+	    <members>Case.Root_Cause_L1__c</members>
+	    <members>Case.Root_Cause_L2__c</members> 
+	    <members>Lead.Detailed_Result__c</members>
+	    <members>Lead.Project_Code_Partner__c</members>
+	    <members>Lead.Project_Code_TCB__c</members>
+	    <members>Lead.Project_Partner_Name__c</members>
+	    <members>Opportunity.StageName</members>
+	    <members>Opportunity.Car_brand__c</members>
+	    <members>Opportunity.Detailed_Result__c</members>
+	    <members>Opportunity.Project_Code_Partner__c</members>
+	    <members>Opportunity.Project_Code_TCB__c</members>
+	    <members>Opportunity.Project_Partner_Name__c</members>
+	    <members>Project__c.Project_Partner__c</members>
+	    <members>Account.Eco_sector__c</members>
+	    <members>Account.Key_Entity__c</members>
+	    <members>Account.Key_Account__c</members>
+	    <members>Activity.Owner_BBC__c</members>
+	    <members>Activity.Result_BB__c</members>
+	    <members>Activity.Task_SubType__c</members>
+	    <members>GSO__c.Eco_sector__c</members>
+	    <members>Lead.Eco_sector__c</members>
+	    <members>Account.Persona__c</members>
+	    <members>Account.Currency_Type__c</members>
+	    <members>Account.Segmentation__c</members>
+	    <members>Account.VIP_Program__c</members>
+	    <members>Account.VIP_type__c</members>
+	    <members>Account.Customer_Group__c</members>
+	    <members>Account.Need__c</members>
+	    <members>Account.Segment__c</members>
+	    <members>Activity.Result_BB__c</members>
+	    <members>Activity.Task_SubType__c</members>
+	    <members>BBC__c.Segment__c</members>
+	    <members>GSO__c.Currency_Type__c</members>
+	    <members>GSO__c.Persona__c</members>
+	    <members>GSO__c.Customer_Group__c</members>
+	    <members>GSO__c.Segment__c</members>
+	    <members>Lead.Currency_Type__c</members>
+	    <members>Lead.Transfer_Status__c</members>
+	    <members>Lead.Detailed_Result__c</members>
+	    <members>Lead.Need__c</members>
+	    <members>Lead.VIP_type__c</members>
+	    <members>Lead.Segment__c</members>
+	    <members>Lead.Lead_Result__c</members>
+	    <members>Lead.Persona__c</members>
+	    <members>Lead.Close_reasons__c</members>
+	    <members>Lead.Customer_Group__c</members>
+	    <members>Opportunity.Distribution_type__c</members>
+	    <members>Opportunity.Issue_channel__c</members>
+	    <members>Opportunity.Result__c</members>
+	    <members>Opportunity.Need__c</members>
+	    <members>Opportunity.Currency_FCY__c</members>
+	    <members>Opportunity.Detailed_Result__c</members>
+	    <members>Opportunity.Transaction_Type__c</members>
+	    <members>Opportunity.Issue_type__c</members>
+	    <members>Opportunity.Transfer_Status__c</members>
+	    <members>Opportunity.Car_brand__c</members>
+	    <members>Opportunity.Premium_payment_period__c</members>
+	    <members>T24_Account__c.Currency_Type__c</members>
+	    <members>T24_Account__c.VIP_Program__c</members>
+	    <members>T24_Account__c.VIP_Type__c</members>
+	    <members>T24_Account__c.Segment__c</members>
+	    <members>TCB_Employee__c.Division_Name__c</members>
+	    <members>TCB_Employee__c.Area_Sub_Function__c</members>
+	    <members>TCB_Employee__c.Company__c</members>
+	    <members>TCB_Employee__c.Segment__c</members>
+	    <members>TCB_Lead_Rule_Mapping__c.Segment__c</members>
+	    <members>TCB_Region__c.Segment__c</members>
+	    <members>User.Segment__c</members>
+	    <members>T24_Account__c.BD_Line__c</members>
+	    <members>Case.ApprovalPreviousApprover__c</members>
+	    <members>Case.ApprovalPreviousPriority__c</members>
+	    <members>Case.ApprovalPreviousOwnerManager__c</members>
+	    <members>Case.ApprovalPreviousOwner__c</members>
+	    <members>Case.ApprovalPreviousSubcategory__c</members>
+	    <members>Case.ApprovalPreviousCategory__c</members>
+	    <members>Case.ApprovalPreviousTopic__c</members>
+	    <members>Contact.is_Personal__c</members> 
+	</types>	
+	<types><name>CustomObject</name>
+		<members>Account</members>
+		<members>AccountContactRelation</members>
+		<members>AccountContactRole</members>
+		<members>AccountTeamMember</members>
+		<members>Account_Summary__c</members>
+		<members>Activity</members>
+		<members>Application_Log__c</members>
+		<members>Application_Setting__mdt</members>
+		<members>BBC_Location__c</members>
+		<members>BBC__c</members>
+		<members>BatchJob</members>
+		<members>BatchJobPart</members>
+		<members>Batch_Configuration__mdt</members>
+		<members>Batch_Static_Parameters__mdt</members>
+		<members>Branch__c</members>
+		<members>Campaign</members>
+		<members>CampaignMember</members>
+		<members>Case</members>
+		<members>CaseContactRole</members>
+		<members>CaseGatewayRequest</members>
+		<members>CaseMilestone</members>
+		<members>CaseRelatedIssue</members>
+		<members>Case_Collaborator__c</members>
+		<members>Contact</members>
+		<members>Corporate_Card__c</members>
+		<members>Dependent_Picklist__mdt</members>
+		<members>Flow_Parameter__mdt</members>
+		<members>FEB_User__c</members>
+		<members>FeedItem</members>
+		<members>Field_By_Language__mdt</members>
+		<members>FinServ__AccountAccountRelation__c</members>
+		<members>FinServ__Alert__c</members>
+		<members>FinServ__AssetsAndLiabilities__c</members>
+		<members>FinServ__B2CLeadCompanyNameConfig__c</members>
+		<members>FinServ__B2CLeadToOpportunityMapping__mdt</members>
+		<members>FinServ__BillingStatement__c</members>
+		<members>FinServ__Card__c</members>
+		<members>FinServ__ChargesAndFees__c</members>
+		<members>FinServ__ContactContactRelation__c</members>
+		<members>FinServ__CustomFieldSet__mdt</members>
+		<members>FinServ__CustomLabelConf__mdt</members>
+		<members>FinServ__DialogLookUpConfig__mdt</members>
+		<members>FinServ__Education__c</members>
+		<members>FinServ__Employment__c</members>
+		<members>FinServ__FeatureFlagSettings__mdt</members>
+		<members>FinServ__FinancialAccountRole__c</members>
+		<members>FinServ__FinancialAccountTransaction__c</members>
+		<members>FinServ__FinancialAccount__c</members>
+		<members>FinServ__FinancialGoal__c</members>
+		<members>FinServ__FinancialHolding__c</members>
+		<members>FinServ__GroupMemberSetting__mdt</members>
+		<members>FinServ__GroupRecordTypeMapper__mdt</members>
+		<members>FinServ__IdentificationDocument__c</members>
+		<members>FinServ__IndividualRecordTypeMapper__mdt</members>
+		<members>FinServ__IndustriesAppConfig__c</members>
+		<members>FinServ__IndustriesSettings__c</members>
+		<members>FinServ__InteractionFieldUpdate__mdt</members>
+		<members>FinServ__JobFlowSetting__mdt</members>
+		<members>FinServ__LifeEvent__c</members>
+		<members>FinServ__LookupSearchConf__mdt</members>
+		<members>FinServ__NextLastInteractionSettings__c</members>
+		<members>FinServ__PolicyPaymentMethod__c</members>
+		<members>FinServ__ReciprocalRole__c</members>
+		<members>FinServ__Record_Rollup_Configuration__c</members>
+		<members>FinServ__ReferralRecordTypeMapper__mdt</members>
+		<members>FinServ__Revenue__c</members>
+		<members>FinServ__RollupByLookupConfig__c</members>
+		<members>FinServ__RollupByLookupFilterCriteria__c</members>
+		<members>FinServ__Securities__c</members>
+		<members>FinServ__Transaction_Dispute_Approval_Limit__mdt</members>
+		<members>FinServ__UsePersonAccount__c</members>
+		<members>FinServ__UseStandardTrigger__mdt</members>
+		<members>FinServ__WealthAppConfig__c</members>
+		<members>FinServ__individualExcludedFields__c</members>
+		<members>Form_Label_by_Lang__mdt</members>
+		<members>Fraud_Message_Map__mdt</members>
+		<members>GSO_Master_Data__c</members>
+		<members>GSO__c</members>
+		<members>In_App_Checklist_Settings__c</members>
+		<members>Integration_Log__c</members>
+		<members>InterfaceFrameworkLogging__c</members>
+		<members>Interface_Configuration__mdt</members>
+		<members>Interface_Form_Field__mdt</members>
+		<members>Interface_Form__mdt</members>
+		<members>Interface_Operations__mdt</members>
+		<members>Lead</members>
+		<members>MaskingInterfaceDataAcess__c</members>
+		<members>MasterData__c</members>
+		<members>Mork_Message__mdt</members>
+		<members>Object_Conversion_Field_Map__mdt</members>
+		<members>Object_Conversion_Map__mdt</members>
+		<members>Opportunity</members>
+		<members>OpportunityCompetitor</members>
+		<members>OpportunityContactRole</members>
+		<members>OpportunityLineItem</members>
+		<members>OpportunityTeamMember</members>
+		<members>PersonAccount</members>
+		<members>PersonLifeEvent</members>
+		<members>Pricebook2</members>
+		<members>PricebookEntry</members>
+		<members>Product2</members>
+		<members>Project__c</members>
+		<members>T24_Account__c</members>
+		<members>TCB_CMDT_Service_Approval__mdt</members>
+		<members>TCB_Case_Rule_Mapping__c</members>
+		<members>TCB_Default_Price_Book_Id__c</members>
+		<members>TCB_Employee__c</members>
+		<members>TCB_Fraud_Customers__c</members>
+		<members>TCB_LeadConversion_PG_recordType_Mapping__mdt</members>
+		<members>TCB_Lead_Rule_Mapping__c</members>
+		<members>TCB_Master_Data_Service__c</members>
+		<members>TCB_Master_Data__c</members>
+		<members>TCB_Org_Info__c</members>
+		<members>TCB_PM_Location_Mapping__mdt</members>
+		<members>TCB_Region__c</members>
+		<members>TCB_Role_RBG_CORP__mdt</members>
+		<members>TCB_Roles__c</members>
+		<members>TCB_RunTrigger__c</members>
+		<members>TCB_Skip_Validation__c</members>
+		<members>Task</members>
+		<members>Team__c</members>
+		<members>Test_Data_Field_Mapping__mdt</members>
+		<members>Test_Data_Mapping__mdt</members>
+		<members>User</members>
+		<members>leadScoring__LeadScoringRule__c</members>
+		<members>odata_Search_Field__mdt</members>
+		<members>odata_Search_Form__mdt</members>
+		<members>ServicePresenceStatus</members>	
+	</types>
+	<types><name>CustomTab</name>
+		<members>Account_Summary__c</members>
+		<members>Application_Log__c</members>
+		<members>BBC_Location__c</members>
+		<members>BBC__c</members>
+		<members>Branch__c</members>
+		<members>FinServ__Alert__c</members>
+		<members>FinServ__AssetsAndLiabilities__c</members>
+		<members>FinServ__ChargesAndFees__c</members>
+		<members>FinServ__Education__c</members>
+		<members>FinServ__Employment__c</members>
+		<members>FinServ__FinancialAccountTransaction__c</members>
+		<members>FinServ__FinancialAccount__c</members>
+		<members>FinServ__FinancialGoal__c</members>
+		<members>FinServ__FinancialHolding__c</members>
+		<members>FinServ__IdentificationDocument__c</members>
+		<members>FinServ__ReciprocalRole__c</members>
+		<members>FinServ__RollupByLookupConfig__c</members>
+		<members>FinServ__Securities__c</members>
+		<members>FinServ__WMClients</members>
+		<members>FinServ__WMToday</members>
+		<members>GSO__c</members>
+		<members>Integration_Log__c</members>
+		<members>LogBatchPurge</members>
+		<members>LogEntryEventStream</members>
+		<members>LogEntryTag__c</members>
+		<members>LogEntry__c</members>
+		<members>Log__c</members>
+		<members>LoggerSettings</members>
+		<members>LoggerTag__c</members>
+		<members>MasterData__c</members>
+		<members>Project__c</members>
+		<members>T24_Account__c</members>
+		<members>TCB_BB_App_Page</members>
+		<members>TCB_BB_Search_Account</members>
+		<members>TCB_Case_Rule_Mapping__c</members>
+		<members>TCB_Fraud_Customers__c</members>
+		<members>TCB_Lead_Rule_Mapping__c</members>
+		<members>TCB_Master_Data_Service__c</members>
+		<members>TCB_Master_Data__c</members>
+		<members>TCB_RBG_Search_Customer</members>
+		<members>TCB_Region__c</members>
+		<members>TCB_WB_Search_Account</members>
+		<members>Team__c</members>
+		<members>leadScoring__LeadScoringRule__c</members>
+		<members>leadScoring__Score_All_Leads</members>
+	</types>	
+	<types><name>Layout</name>
+		<members>Account-Account %28Business Referral%29 Layout</members>
+		<members>Account-Account %28Business%29 Layout</members>
+		<members>Account-Account %28Household%29 Layout</members>
+		<members>Account-Account %28Individual%29 Layout</members>
+		<members>Account-Account %28Institution%29 Layout</members>
+		<members>Account-Account %28Policyholder%29 Layout</members>
+		<members>Account-Account %28Retail Client - Individual%29 Layout</members>
+		<members>Account-Account Layout</members>
+		<members>Account-Account Test Layout</members>
+		<members>Account-TCB-BB-Account %28Business%29 Layout</members>
+		<members>Account-TCB-BB-Account %28BusinessReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyAcc%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyAccReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyEntity%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyEntityReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28Normal%29 Layout</members>
+		<members>Account-TCB-WB-Account %28NormalReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28Special%29 Layout</members>
+		<members>Account-TCB-WB-Account %28SpecialReadonly%29 Layout</members>
+		<members>AccountContactRelation-Account Contact Relationship Layout</members>
+		<members>AccountContactRelation-FinServ__Account Contact Relationship Layout</members>
+		<members>AccountContactRelation-Account Contact Relationship Layout</members>
+		<members>AccountTeamMember-Account Team Member Layout</members>
+		<members>Account_Summary__c-Account Summary Layout</members>
+		<members>Account_Summary__c-TCB Corporate Account Summary</members>
+		<members>Account_Summary__c-TCB Retail Account Summary</members>
+		<members>Application_Log__c-Application Log Layout</members>
+		<members>Application_Setting__mdt-Application Setting Layout</members>
+		<members>BBC_Location__c-BBC Location Layout</members>
+		<members>BBC__c-BBC Layout</members>
+		<members>Batch_Configuration__mdt-Batch Configuration Layout</members>
+		<members>Batch_Static_Parameters__mdt-Batch Static Parameter Layout</members>
+		<members>Branch__c-Branch Layout</members>
+		<members>Campaign-Campaign Layout</members>
+		<members>CampaignMember-Campaign Member Page Layout</members>
+		<members>Case-Case %28FSC%29 Layout</members>
+		<members>Product2-Corporate Product Layout</members>
+		<members>Case-Case Layout</members>
+		<members>Case-Case Layout Template v1</members>
+		<members>Case-TCB Complaint</members>
+		<members>Case-TCB GTS Service Request</members>
+		<members>Case-TCB Service Request</members>
+		<members>CaseClose-Close Case Layout</members>
+		<members>CaseClose-TCB Close Case Layout</members>
+		<members>CaseGatewayRequest-Case Gateway Request Layout</members>
+		<members>CaseInteraction-Case Feed Layout</members>
+		<members>CaseMilestone-Case Milestone Layout</members>
+		<members>Case_Collaborator__c-Case Collaborator Layout</members>
+		<members>Contact-Contact %28Business%29 Layout</members>
+		<members>Contact-Contact %28Individual%29 Layout</members>
+		<members>Contact-Contact %28Policyholder%29 Layout</members>
+		<members>Contact-Contact %28Retail Client - Individual%29 Layout</members>
+		<members>Contact-Contact Layout</members>
+		<members>Contact-TCB Corporate Contact Layout</members>
+		<members>Contact-TCB Corporate Contact Layout - Service</members>
+		<members>Contact-TCB Retail Contact Layout</members>
+		<members>Contact-TCB Retail Contact Layout - Service</members>
+		<members>Corporate_Card__c-Corporate Card Layout</members>
+		<members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
+		<members>Dependent_Picklist__mdt-Dependent Field Control Layout</members>
+		<members>EngagementInteraction-Engagement Interaction Layout</members>
+		<members>EngagementTopic-Engagement Topic Layout</members>
+		<members>EnhancedLetterhead-Enhanced Letterhead Layout</members>
+		<members>Entitlement-Entitlement Layout</members>
+		<members>EntityMilestone-Object Milestone Layout</members>
+		<members>Event-BB Event Layout</members>
+		<members>Event-Event Layout</members>
+		<members>Event-RBG Event Layout</members>
+		<members>Event-Wealth Events</members>
+		<members>FEB_User__c-FEB User Layout</members>
+		<members>FeedItem-Feed Item Layout</members>
+		<members>Field_By_Language__mdt-Field By Language Layout</members>
+		<members>FinServ__AccountAccountRelation__c-Account Account Relation Layout</members>
+		<members>FinServ__AccountAccountRelation__c-Account-Account Relationship Layout</members>
+		<members>FinServ__Alert__c-Alert Layout</members>
+		<members>FinServ__AssetsAndLiabilities__c-Assets and Liabilities Layout</members>
+		<members>FinServ__B2CLeadToOpportunityMapping__mdt-B2CLeadToOpportunityMapping Layout</members>
+		<members>FinServ__BillingStatement__c-Credit Billing Statement Layout</members>
+		<members>FinServ__BillingStatement__c-Debit Billing Statement Layout</members>
+		<members>FinServ__Card__c-Card Layout</members>
+		<members>FinServ__ChargesAndFees__c-ChargesAndFees Credit Layout</members>
+		<members>FinServ__ChargesAndFees__c-ChargesAndFees Debit Layout</members>
+		<members>FinServ__ContactContactRelation__c-Contact Contact Relation Layout</members>
+		<members>FinServ__ContactContactRelation__c-Contact-Contact Relationship Layout</members>
+		<members>FinServ__CustomFieldSet__mdt-CustomFieldSet Layout</members>
+		<members>FinServ__CustomLabelConf__mdt-CustomLabelConf Layout</members>
+		<members>FinServ__DialogLookUpConfig__mdt-DialogLookUpConfig Layout</members>
+		<members>FinServ__Education__c-Education Layout</members>
+		<members>FinServ__Employment__c-Employment Layout</members>
+		<members>FinServ__FeatureFlagSettings__mdt-Feature Flag Setting Layout</members>
+		<members>FinServ__FeatureServiceMapping__mdt-Feature Service Mapping Layout</members>
+		<members>FinServ__FeatureToggle__mdt-Feature Toggle Layout</members>
+		<members>FinServ__FinancialAccountRole__c-Account Role Layout</members>
+		<members>FinServ__FinancialAccountRole__c-Contact Role Layout</members>
+		<members>FinServ__FinancialAccountTransaction__c-Financial Account Transaction Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Auto Loan%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Banca%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Banking%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Bond - BB%2FWB%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Bond - RBG%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28CASA%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Certification of Deposit%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Checking Account%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Credit Card%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Credit limit%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Current Account%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Deposit%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Fund%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28General%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Guarantee%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28HELOC%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Insurance%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Investment%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28LC%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Loan Account%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Long Term Loan%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Mortgage%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Non Secure Loan%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Savings Account%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Secure Loan%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Short term loan%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Term Deposit%29 Layout</members>
+		<members>FinServ__FinancialAccount__c-Financial Account %28Treasury Service%29 Layout</members>
+		<members>FinServ__FinancialGoal__c-Financial Goal Layout</members>
+		<members>FinServ__FinancialHolding__c-Financial Holding Layout</members>
+		<members>FinServ__GroupBuilderFieldSets__mdt-GroupBuilderFieldSets Layout</members>
+		<members>FinServ__GroupMemberSetting__mdt-GroupMemberSetting Layout</members>
+		<members>FinServ__GroupRecordTypeMapper__mdt-Group Record Type Mapper Layout</members>
+		<members>FinServ__IdentificationDocument__c-Identification Document Layout</members>
+		<members>FinServ__IndividualRecordTypeMapper__mdt-Record Type Mapper Layout</members>
+		<members>FinServ__InteractionFieldUpdate__mdt-InteractionFieldUpdate Layout</members>
+		<members>FinServ__JobFlowSetting__mdt-Job Flow Setting Layout</members>
+		<members>FinServ__LicenseKeyMapping__mdt-License Key Mapping Layout</members>
+		<members>FinServ__LifeEvent__c-Life Event Layout</members>
+		<members>FinServ__LookupSearchConf__mdt-LookupSearchConf Layout</members>
+		<members>FinServ__PolicyPaymentMethod__c-Policy Payment Method Layout</members>
+		<members>FinServ__ReciprocalRole__c-Reciprocal Role Layout</members>
+		<members>FinServ__ReferralRecordTypeMapper__mdt-Referral Record Type Mapper Layout</members>
+		<members>FinServ__Revenue__c-Revenue Layout</members>
+		<members>FinServ__RoleEntityMapping__mdt-RoleEntityMapping Layout</members>
+		<members>FinServ__RollupByLookupConfig__c-RollupByLookupConfig Layout</members>
+		<members>FinServ__RollupByLookupFilterCriteria__c-RollupByLookupCriteria Layout</members>
+		<members>FinServ__Securities__c-Securities Layout</members>
+		<members>FinServ__Transaction_Dispute_Approval_Limit__mdt-Transaction Dispute Approval Limit Layout</members>
+		<members>FinServ__UseStandardTrigger__mdt-Use Standard Trigger Layout</members>
+		<members>FlowInterview-Flow Interview Layout</members>
+		<members>FlowOrchestrationWorkItem-Orchestration Work Item Layout</members>
+		<members>Form_Label_by_Lang__mdt-Form Label by Language Layout</members>
+		<members>Fraud_Message_Map__mdt-Fraud Message Map Layout</members>
+		<members>GSO_Master_Data__c-GSO Master Data Layout</members>
+		<members>GSO__c-GSO Layout</members>
+		<members>Integration_Log__c-Integration Log Layout</members>
+		<members>Interface_Configuration__mdt-Interface Configuration Layout</members>
+		<members>Interface_Form_Field__mdt-Interface Form Field Layout</members>
+		<members>Interface_Form__mdt-Integration Form Layout</members>
+		<members>Interface_Operations__mdt-Integration Operation Layout</members>
+		<members>Lead-Lead %28General%29 Layout</members>
+		<members>Lead-Lead %28Referral%29 Layout</members>
+		<members>Lead-Lead ExternalLeads Layout</members>
+		<members>Lead-Lead Layout</members>
+		<members>Lead-TCB - BB - Lead Business Layout</members>
+		<members>Lead-TCB - BB - Lead Business-Readonly Layout</members>
+		<members>Lead-TCB - RBG - Lead Retail Layout</members>
+		<members>Lead-TCB - RBG - Lead Retail-Readonly Layout</members>
+		<members>Lead-TCB - WB - Lead Wholesale Layout</members>
+		<members>Lead-TCB - WB - Lead Wholesale-Readonly Layout</members>
+		<members>LeadConversion_OppRecord_Type__mdt-LeadConversion OppRecord Type Layout</members>
+		<members>Lead_conversion_recordType_Mapping__mdt-Lead conversion recordType Mapping Layout</members>
+		<members>LogEntryDataMaskRule__mdt-Log Entry Data Mask Rule Layout</members>
+		<members>LogEntryTagRule__mdt-Logger Tag Rule Layout</members>
+		<members>LogEntryTag__c-Log Entry Tag Layout</members>
+		<members>LogEntry__c-Log Entry Layout</members>
+		<members>LogScenarioRule__mdt-Log Scenario Rule Layout</members>
+		<members>LogStatus__mdt-Log Status Layout</members>
+		<members>Log__c-Log Layout</members>
+		<members>LoggerParameter__mdt-Logger Parameter Layout</members>
+		<members>LoggerPlugin__mdt-Logger Plugin Layout</members>
+		<members>LoggerSObjectHandler__mdt-Logger SObject Handler Layout</members>
+		<members>LoggerTag__c-Logger Tag Layout</members>
+		<members>MasterData__c-Hydra Master Data Layout</members>
+		<members>Object_Conversion_Field_Map__mdt-Object Conversion Field Map Layout</members>
+		<members>Object_Conversion_Map__mdt-Object Conversion Map Layout</members>
+		<members>Opportunity-Opportunity %28General%29 Layout</members>
+		<members>Opportunity-Opportunity %28Wallet Share%29 Layout</members>
+		<members>Opportunity-Opportunity Layout</members>
+		<members>Opportunity-TCB - BB - Opp Business Banca Layout</members>
+		<members>Opportunity-TCB - BB - Opp Credit Approval Layout</members>
+		<members>Opportunity-TCB - BB - Opp Credit Operation Layout</members>
+		<members>Opportunity-TCB - BB - Opp Non credit Layout</members>
+		<members>Opportunity-TCB - BB - Opp Other activity Layout</members>
+		<members>Opportunity-TCB - BB - Opp PSE Limit Layout</members>
+		<members>Opportunity-TCB - BB - Opp Sales activity Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Account Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Account Package Layout</members>
+		<members>Opportunity-TCB - RBG - Opp BaoLocCOD Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Credit Card Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Debit Card Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Deposit Layout</members>
+		<members>Opportunity-TCB - RBG - Opp E-Banking Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Fund Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Non-secured Lending Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Retail Banca Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Retail Bond Layout</members>
+		<members>Opportunity-TCB - RBG - Opp Secured Lending%09Layout</members>
+		<members>Opportunity-TCB - WB - Opp CASA Layout</members>
+		<members>Opportunity-TCB - WB - Opp Fee Layout</members>
+		<members>Opportunity-TCB - WB - Opp MLT loan Layout</members>
+		<members>Opportunity-TCB - WB - Opp Others Layout</members>
+		<members>Opportunity-TCB - WB - Opp Short-term loan Layout</members>
+		<members>Opportunity-TCB - WB - Opp TD Layout</members>
+		<members>Opportunity-TCB - WB - Opp Wholesale Bond Layout</members>
+		<members>Account-TCB-BB-Account %28Business%29 Layout</members>
+		<members>Account-TCB-BB-Account %28BusinessReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyAcc%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyAccReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyEntity%29 Layout</members>
+		<members>Account-TCB-WB-Account %28KeyEntityReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28Normal%29 Layout</members>
+		<members>Account-TCB-WB-Account %28NormalReadonly%29 Layout</members>
+		<members>Account-TCB-WB-Account %28Special%29 Layout</members>
+		<members>Account-TCB-WB-Account %28SpecialReadonly%29 Layout</members>
+		<members>GSO_Master_Data__c-GSO Master Data Layout</members>
+		<members>GSO__c-GSO Layout</members>
+		<members>Lead-TCB - BB - Lead Business-Readonly Layout</members>
+		<members>Lead-TCB - BB - Lead Business Layout</members>
+		<members>Lead-TCB-RBG-Lead Retail Layout</members>
+		<members>Lead-TCB-RBG-Lead Retail Layout Readonly</members>
+		<members>Lead-TCB - WB - Lead Wholesale-Readonly Layout</members>
+		<members>Lead-TCB - WB - Lead Wholesale Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Account Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Account Package Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Banca Layout</members>
+		<members>Opportunity-TCB-RBG-Opp BaoLocCOD Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Bond Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Credit Card Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Debit Card Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Deposit Layout</members>
+		<members>Opportunity-TCB-RBG-Opp E-Banking Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Fund Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Non-secured Lending Layout</members>
+		<members>Opportunity-TCB-RBG-Opp Secured Lending Layout</members>
+		<members>Project__c-Project Layout</members>
+		<members>T24_Account__c-T24 BB Account Layout</members>
+		<members>T24_Account__c-T24 Retail Account Layout</members>
+		<members>T24_Account__c-T24 WB Normal Account Layout</members>
+		<members>T24_Account__c-T24 WB Special Account Layout</members>
+		<members>PersonAccount-TCB-RBG-Account%28Retail%29Layout</members>
+		<members>PersonAccount-TCB-RBG-Account%28Retail%29Layout Readonly</members> 
+		<members>Case-TCB Complaint</members>
+		<members>Case-TCB GTS Service Request</members>
+		<members>Case-TCB Service Request</members>
+		<members>OpportunityContactRole-Opportunity Contact Role Layout</members>
+		<members>OpportunityLineItem-Opportunity Product Layout</members>
+		<members>OpportunityTeamMember-Opportunity Team Member Layout</members>
+		<members>PersonAccount-Person Account Layout</members>
+		<members>PersonAccount-TCB-RBG-Account %28Retail%29 Layout</members>
+		<members>PersonAccount-TCB-RBG-Account %28Retail%29 Layout Readonly</members>
+		<members>PersonLifeEvent-Person Life Event Layout</members>
+		<members>Pricebook2-Price Book Layout</members>
+		<members>PricebookEntry-Price Book Entry Layout</members>
+		<members>ProcessException-Process Exception Layout</members>
+		<members>Producer-Producer Layout</members>
+		<members>ProducerCommission-Producer Commission Layout</members>
+		<members>Product2-Product Layout</members>
+		<members>Project__c-Project Layout</members>
+		<members>Scorecard-Scorecard Layout</members>
+		<members>ScorecardAssociation-Scorecard Association Layout</members>
+		<members>ScorecardMetric-Scorecard Metric Layout</members>
+		<members>Set_Lookup_by_Code__mdt-Set Lookup by Code Layout</members>
+		<members>System_Settings__mdt-System Setting Layout</members>
+		<members>T24_Account__c-T24 BB Account Layout</members>
+		<members>T24_Account__c-T24 Retail Account Layout</members>
+		<members>T24_Account__c-T24 WB Normal Account Layout</members>
+		<members>T24_Account__c-T24 WB Special Account Layout</members>
+		<members>TCB_CMDT_Service_Approval__mdt-TCB Service Approval Layout</members>
+		<members>TCB_Case_Rule_Mapping__c-TCB Case Rule Mapping Layout</members>
+		<members>TCB_Employee__c-TCB Employee Layout</members>
+		<members>TCB_Fraud_Customers__c-TCB Fraud Customers Layout</members>
+		<members>TCB_LeadConversion_PG_recordType_Mapping__mdt-TCB LeadConversion recordType Mapping Layout</members>
+		<members>TCB_Lead_Rule_Mapping__c-TCB Lead Rule Mapping Layout</members>
+		<members>TCB_Master_Data_Service__c-TCB Master Data Service Layout</members>
+		<members>TCB_Master_Data__c-Master Data Layout</members>
+		<members>TCB_PM_Location_Mapping__mdt-TCB PM Location Mapping Layout</members>
+		<members>TCB_Region__c-TCB Region Layout</members>
+		<members>TCB_Role_RBG_CORP__mdt-TCB Role RBG CORP Layout</members>
+		<members>Task-BB Task Layout</members>
+		<members>Task-RBG Task Layout</members>
+		<members>Task-Task Layout</members>
+		<members>Task-WB Task Layout</members>
+		<members>Task-Wealth Tasks</members>
+		<members>Team__c-Team Layout</members>
+		<members>Test_Data_Field_Mapping__mdt-Test Data Field Mapping Layout</members>
+		<members>Test_Data_Mapping__mdt-Test Data Mapping Layout</members>
+		<members>User-User Layout</members>
+		<members>leadScoring__LeadScoringRule__c-Lead Scoring Rule Layout</members>
+		<members>odata_Search_Field__mdt-odata Search Field Layout</members>
+		<members>odata_Search_Form__mdt-odata Search Form Layout</members>		
+	</types>	
+	<types><name>Flow</name>
+		<members>*</members>	
+	</types>
+	<types><name>PermissionSet</name>	
+		<members>*</members>	
+	</types>
+	<types><name>PermissionSetGroup</name>
+		<members>*</members>
+	</types>
+	<types><name>Profile</name>
+		<members>*</members>	
+	</types>
+	<types><name>RecordType</name>
+		<members>Account.FinServ__IndustriesBusiness</members>
+		<members>Account.FinServ__IndustriesHousehold</members>
+		<members>Account.FinServ__IndustriesIndividual</members>
+		<members>Account.FinServ__IndustriesInstitution</members>
+		<members>Account.TCB_BB_Business_Account</members>
+		<members>Account.TCB_BB_Business_Acount_Readonly</members>
+		<members>Account.TCB_WB_Key_Account</members>
+		<members>Account.TCB_WB_Key_Entity</members>
+		<members>Account.TCB_WB_Normal_Account</members>
+		<members>Account.TCB_WB_Normal_Account_Readonly</members>
+		<members>Account.TCB_WB_Special_Account</members>
+		<members>Account.TCB_WB_Special_Account_Readonly</members>
+		<members>PersonAccount.TCB_RB_Retail_Account</members>
+		<members>PersonAccount.TCB_RB_Retail_Account_Readonly</members>
+		<members>Account_Summary__c.Corporate_Account_Summary</members>
+		<members>Account_Summary__c.Retail_Account_Summary</members>
+		<members>Account_Summary__c.TCB_BB_WB_Account_Summary</members>
+		<members>Account_Summary__c.TCB_RB_Account_Summary</members>
+		<members>Case.TCB_CM_Complaint</members>
+		<members>Case.TCB_CM_Service_Request</members>
+		<members>Case.TCB_GTS_Complaint</members>
+		<members>Case.TCB_GTS_Service_Request</members>
+		<members>Contact.FinServ__IndustriesBusiness</members>
+		<members>Contact.FinServ__IndustriesIndividual</members>
+		<members>Event.FinServ__AdvisorEvent</members>
+		<members>Event.FinServ__ClientAssociateEvent</members>
+		<members>FinServ__AssetsAndLiabilities__c.FinServ__Liability</members>
+		<members>FinServ__AssetsAndLiabilities__c.FinServ__NonfinancialAsset</members>
+		<members>FinServ__BillingStatement__c.FinServ__Credit</members>
+		<members>FinServ__BillingStatement__c.FinServ__Debit</members>
+		<members>FinServ__ChargesAndFees__c.FinServ__Credit</members>
+		<members>FinServ__ChargesAndFees__c.FinServ__Debit</members>
+		<members>FinServ__FinancialAccountRole__c.FinServ__AccountRole</members>
+		<members>FinServ__FinancialAccountRole__c.FinServ__ContactRole</members>
+		<members>FinServ__FinancialAccount__c.FinServ__AutoLoan</members>
+		<members>FinServ__FinancialAccount__c.FinServ__BankingAccount</members>
+		<members>FinServ__FinancialAccount__c.FinServ__CheckingAccount</members>
+		<members>FinServ__FinancialAccount__c.FinServ__CreditCard</members>
+		<members>FinServ__FinancialAccount__c.FinServ__General</members>
+		<members>FinServ__FinancialAccount__c.FinServ__HELOC</members>
+		<members>FinServ__FinancialAccount__c.FinServ__InsurancePolicy</members>
+		<members>FinServ__FinancialAccount__c.FinServ__InvestmentAccount</members>
+		<members>FinServ__FinancialAccount__c.FinServ__LoanAccount</members>
+		<members>FinServ__FinancialAccount__c.FinServ__Mortgage</members>
+		<members>FinServ__FinancialAccount__c.FinServ__SavingsAccount</members>
+		<members>FinServ__FinancialAccount__c.FinServ__TreasuryService</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Banca</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Bond</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Certification_of_Deposit</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Current_Account</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Deposit</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Fund</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Non_Secure_Loan</members>
+		<members>FinServ__FinancialAccount__c.TCB_RB_Secure_Loan</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_Bond</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_CASA</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_Credit_limit</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_Guarantee</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_LC</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_Long_Term_Loan</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_Short_term_loan</members>
+		<members>FinServ__FinancialAccount__c.TCB_WB_Term_Deposit</members>
+		<members>FinServ__ReciprocalRole__c.FinServ__AccountRole</members>
+		<members>FinServ__ReciprocalRole__c.FinServ__ContactRole</members>
+		<members>Lead.FinServ__BusinessReferral</members>
+		<members>Lead.FinServ__General</members>
+		<members>Lead.FinServ__Referral</members>
+		<members>Lead.FinServ__RetirementPlanning</members>
+		<members>Lead.TCB_BB_Business</members>
+		<members>Lead.TCB_BB_Business_Readonly</members>
+		<members>Lead.TCB_CM_External_Leads</members>
+		<members>Lead.TCB_RB_Retail</members>
+		<members>Lead.TCB_RB_Retail_Readonly</members>
+		<members>Lead.TCB_WB_Wholesale</members>
+		<members>Lead.TCB_WB_Wholesale_Readonly</members>	
+		<members>Opportunity.FinServ__General</members>
+		<members>Opportunity.FinServ__RetirementPlanning</members>
+		<members>Opportunity.FinServ__WalletShareOpportunity</members>
+		<members>Opportunity.TCB_BB_Business_Banca</members>
+		<members>Opportunity.TCB_BB_Credit_Approval</members>
+		<members>Opportunity.TCB_BB_Credit_Operational</members>
+		<members>Opportunity.TCB_BB_Non_credit</members>
+		<members>Opportunity.TCB_BB_Other_activity</members>
+		<members>Opportunity.TCB_BB_PSE_Limit</members>
+		<members>Opportunity.TCB_BB_Sales_activity</members>
+		<members>Opportunity.TCB_RB_Account</members>
+		<members>Opportunity.TCB_RB_Account_Package</members>
+		<members>Opportunity.TCB_RB_Banca</members>
+		<members>Opportunity.TCB_RB_Bao_Loc_Certificates_of_deposit</members>
+		<members>Opportunity.TCB_RB_Bond</members>
+		<members>Opportunity.TCB_RB_Credit_Card</members>
+		<members>Opportunity.TCB_RB_Debit_Card</members>
+		<members>Opportunity.TCB_RB_Deposit</members>
+		<members>Opportunity.TCB_RB_E_Banking</members>
+		<members>Opportunity.TCB_RB_Fund</members>
+		<members>Opportunity.TCB_RB_Non_secured_Lending</members>
+		<members>Opportunity.TCB_RB_Secured_Lending</members>
+		<members>Opportunity.TCB_WB_Bond</members>
+		<members>Opportunity.TCB_WB_CASA</members>
+		<members>Opportunity.TCB_WB_Fee</members>
+		<members>Opportunity.TCB_WB_Mid_long_term_loan</members>
+		<members>Opportunity.TCB_WB_Others</members>
+		<members>Opportunity.TCB_WB_Short_term_loan</members>
+		<members>Opportunity.TCB_WB_TD</members>
+		<members>T24_Account__c.T24_BB_Account</members>
+		<members>T24_Account__c.T24_RB_Account</members>
+		<members>T24_Account__c.T24_WB_Normal_Account</members>
+		<members>T24_Account__c.T24_WB_Special_Account</members>
+		<members>Task.FinServ__AdvisorTask</members>
+		<members>Task.FinServ__ClientAssociateTask</members>
+		<members>Account.PersonAccount</members>
+	</types>
+	<version>55.0</version>
+</Package>

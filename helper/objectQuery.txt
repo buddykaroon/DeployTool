@@ -1,0 +1,15 @@
+Select	
+parent.name 	,
+SobjectType	,
+PermissionsCreate	,
+PermissionsRead	,
+PermissionsEdit	,
+PermissionsDelete	,
+PermissionsViewAllRecords	,
+PermissionsModifyAllRecords	,
+CreatedDate	,
+CreatedById	,
+LastModifiedDate	,
+LastModifiedById	,
+SystemModstamp	
+From ObjectPermissions	
