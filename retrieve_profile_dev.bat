@@ -22,6 +22,4 @@ call sfdx force:source:retrieve -x .\manifest\sourcePackage.xml -u ckaroonyavani
 cd ..
 cd ..
 call node ./helper/removeCustomFieldsNotInSit.js .\retrieves\%SUBFILENAME% 
-rem call validate_sit.bat .\retrieves\%SUBFILENAME%
 if "%~1"=="-validate" (call validate_sit.bat .\retrieves\%SUBFILENAME%)
-rem xcopy %SUBFILENAME%  %SUBFILENAME%-raw  /h /i /c /k /e /r /y

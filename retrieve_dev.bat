@@ -16,12 +16,8 @@ cd %SUBFILENAME%
 mkdir manifest
 copy ..\..\packages\sourcePackage.xml .\manifest\sourcePackage.xml
 copy ..\..\packages\sourcePackage.xml .\manifest\destinationPackage.xml
-rem call node ..\..\helper\fixProfile.js .\manifest\sourcePackage.xml
 echo ..\%~1
-rem if "%~1"=="" (copy ..\..\packages\sourcePackage.xml .\manifest\destinationPackage.xml) else (copy ..\%~1 .\manifest\destinationPackage.xml)
 call sfdx force:source:retrieve -x .\manifest\sourcePackage.xml -u ckaroonyavanich@salesforce.com.tcb.sfdev > sfdxDevRetrieveLogs.txt
-
 cd ..
 cd ..
 if "%~1"=="-validate" (call validate_sit.bat .\retrieves\%SUBFILENAME%)
-rem xcopy %SUBFILENAME%  %SUBFILENAME%-raw  /h /i /c /k /e /r /y
