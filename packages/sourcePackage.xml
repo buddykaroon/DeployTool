@@ -1,50 +1,221 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Package xmlns='http://soap.sforce.com/2006/04/metadata'>
-    <types>
-        <name>GlobalValueSetTranslation</name>
-             <members>Case_Category-vi</members>
-             <members>Case_Item-vi</members>
-             <members>Case_Sub_Category-vi</members>
-             <members>Case_Topic-vi</members>
-             <members>Case_Topic_and_Category-vi</members>
-     </types>
-     <types>
-        <name>CustomObjectTranslation</name>
-        <members>Case-vi</members>
-     </types>
-    <types>
-        <name>GlobalValueSet</name>
-             <members>Case_Category</members>
-             <members>Case_In_Charge_Unit</members>
-             <members>Case_Item</members>
-             <members>Case_Sub_Category</members>
-             <members>Case_Topic</members>
-             <members>Case_Topic_and_Category</members>
-     </types>  
-     <types>
-        <name>ValidationRule</name>
-        <members>Case.TCB_Lock_Case_Record_when_Closed_Status</members>
-        <members>Lead.TCB_GTS_Lead_Restriction</members>
-        <members>Account.TCB_GTS_Account_Restriction</members>
-        <members>Contact.TCB_GTS_Contact_Restriction</members>
-        <members>Opportunity.TCB_GTS_Opportunity_Restriction</members>
-     </types>
-     <types>
-        <name>CustomField</name>
-             <members>Case.Root_Cause_L1__c</members>
-             <members>Case.ApprovalPreviousSubcategory__c</members>
-             <members>Case.Issue_Level_2__c</members>
-             <members>Case.ApprovalPreviousApprover__c</members>
-             <members>Case.Sub_Category_and_Item__c</members>
-             <members>Case.Issue_level_1__c</members>
-             <members>Case.Sub_Type__c</members>
-             <members>Case.ApprovalPreviousTopic__c</members>
-             <members>Case.ApprovalPreviousOwnerManager__c</members>
-             <members>Case.Root_Cause_L2__c</members>
-             <members>Case.ApprovalPreviousCategory__c</members>
-             <members>Case.ApprovalPreviousOwner__c</members>
-             <members>Case.ApprovalPreviousPriority__c</members>
-             <members>Case.SLA_Violation_Time__c</members>
-        </types>
+<types>
+   <name>ApexClass</name>
+   <members>TCB_Branch_HubParentRouting</members> 
+   <members>TCB_Branch_SkillBasedRouting</members>
+   <members>TCB_Lead_PSR_Scheduler</members> 
+   <members>TCB_Lead_RandomAssign</members> 
+   <members>TCB_Lead_SkillbasedRouting_Helper</members>
+   <members>TCB_FraudManagerTest</members>
+   <members>TCB_FraudManager</members>
+   <members>TCB_T24AccountSyncJob</members>
+   <members>SearchListController</members>
+   <members>SearchListController_Test</members>
+   <members>SearchListinheritedSharing</members>
+   <members>SearchListWithOutSharing</members>
+   <members>TCB_TestDataFactory</members>
+   <members>TCB_Utility</members>
+   <members>TCB_Utility_Test</members>
+   <members>Utility</members>
+   <members>TCB_CreateLeadController</members>
+   <members>TCB_CreateOpportunityController</members>
+</types>
+<types>
+   <name>AuraDefinitionBundle</name>
+   <members>TCB_CreateLeadComponent</members>
+   <members>TCB_CreateOpportunityComponent</members>
+</types>
+<types>
+   <name>CustomLabel</name>
+   <members>TCB_Opportunity_assignment</members>
+</types>
+<types>
+   <name>CustomField</name> 
+   <members>Lead.Current_Owner_is_Creator__c</members>
+   <members>Lead.Bypass_Validation__c</members>
+   <members>Lead.Status</members>
+   <members>Lead.Lead_Result__c</members>
+   <members>Account.BBC__c</members>
+   <members>Account.ParentId</members>
+   <members>Opportunity.Result__c</members>
+   <members>Opportunity.StageName</members>
+   <members>Case.Account_Record_Type__c</members>
+   <members>Case.Owner_Top_Parent_Role__c</members>
+   <members>Case.Case_Owner_Role_Name_Text__c</members>
+   <members>FinServ__AccountAccountRelation__c.Roles__c</members>
+   <members>Case.Notify_Manager_Flag__c</members>
+   <members>TCB_Custom_Creation_Mapping__mdt.FieldSetName__c</members>
+   <members>TCB_Custom_Creation_Mapping__mdt.ObjectAPIName__c</members>
+   <members>TCB_Custom_Creation_Mapping__mdt.RecordTypeAPIName__c</members>
+</types>
+<types>
+   <name>CustomMetadata</name>
+   <members>odata_Search_Field.RBG_T24_Customer_ID</members>
+   <members>odata_Search_Form.TCB_RBG_Search_RBG_Account</members>
+   <members>Object_Conversion_Field_Map.BB_Name</members>
+   <members>Object_Conversion_Field_Map.RB_Name</members>
+   <members>Object_Conversion_Field_Map.WB_Name</members>
+   <members>Object_Conversion_Field_Map.BB_Charter_Capital_Currency</members>
+   <members>Object_Conversion_Field_Map.WB_Branch_Code_Raw</members>
+   <members>Object_Conversion_Field_Map.RBG_Branch_Code_Raw</members>
+   <members>Object_Conversion_Field_Map.BB_Branch_Code_2</members>
+   <members>Set_Lookup_by_Code.Lead_PreferredOwner</members>
+   <members>Set_Lookup_by_Code.Lead_RB_Account</members>
+   <members>Set_Lookup_by_Code.Lead_RB_Account</members>
+   <members>Set_Lookup_by_Code.Lead_PreferredOwner</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_BB_PSE_Limit</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_BB_Banca</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_Account</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_CreditCard</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_Bond</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_Fund</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_Non_secured_Lending</members>
+   <members>TCB_Custom_Creation_Mapping.Lead_TCB_BB_Business</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_Banca</members>
+   <members>TCB_Custom_Creation_Mapping.RBG_Secured_Lending</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_DebitCard</members>
+   <members>TCB_Custom_Creation_Mapping.Lead_TCB_RB_Retail</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_E_Banking</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_BB_Non_credit</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_Account_Package</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_BB_Credit_Approval</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_BaoLocCod</members>
+   <members>TCB_Custom_Creation_Mapping.Oppty_RBG_Deposit</members>
+   <members>odata_Search_Field.TCB_Oppty_Creation</members>
+   <members>odata_Search_Field.TCB_Lead_Creation</members>
+</types>
+<types>
+   <name>CustomObject</name>
+   <members>T24_Account__c</members>
+   <members>TCB_Custom_Creation_Mapping__mdt</members>
+</types>
+<types>
+   <name>CustomObjectTranslation</name>
+   <members>Case-vi</members>
+</types>
+<types>
+   <name>DuplicateRule</name>
+   <members>Contact.TCB_Contact_Phone_Duplicate_Check</members>
+   <members>Contact.TCB_Contact_Identity_Check</members>
+   <members>Contact.TCB_Contact_Duplicate_Check</members>
+</types>
+<types>
+   <name>FieldSet</name>
+   <members>Opportunity.RBG_Bond</members>
+   <members>Opportunity.RBG_Account_Package</members>
+   <members>Opportunity.RBG_Account</members>
+   <members>Opportunity.RBG_Fund</members>
+   <members>Opportunity.RBG_Deposit</members>
+   <members>Opportunity.BB_Non_credit</members>
+   <members>Opportunity.RBG_BaoLocCod</members>
+   <members>Opportunity.RBG_Banca</members>
+   <members>Opportunity.RBG_CreditCard</members>
+   <members>Opportunity.RBG_Non_secured_Lending</members>
+   <members>Opportunity.RBG_E_Banking</members>
+   <members>Opportunity.BB_Banca</members>
+   <members>Opportunity.RBG_Secured_Lending</members>
+   <members>Opportunity.BB_Credit_Approval</members>
+   <members>Opportunity.BB_PSE_Limit</members>
+   <members>Opportunity.RBG_DebitCard</members>
+   <members>Lead.TCB_RBG_Leads</members>
+   <members>Lead.TCB_BB_Leads</members>
+</types>
+<types>
+   <name>FlexiPage</name>
+   <members>TCB_BB_App_Home_Page</members>
+</types>
+<types>
+   <name>Flow</name>
+   <members>TCB_Lead_Auto_Assignment_Flow</members>
+   <members>TCB_Case_Set_Default_values</members>
+   <members>TCB_Service_Approval</members>
+   <members>TCB_Service_Approval_Create_Record</members>
+   <members>TCB_Service_Approval_notifications</members>
+   <members>TCB_Service_Approval_Rejected_Reverse_to_previous_values</members>
+</types>
+<types>
+   <name>GlobalValueSetTranslation</name>
+   <members>Case_Category-vi</members>
+   <members>Case_Item-vi</members>
+   <members>Case_Sub_Category-vi</members>
+   <members>Case_Topic-vi</members>
+   <members>Case_Topic_and_Category-vi</members>
+</types>
+<types>
+      <name>Layout</name>
+      <members>Account-TCB-WB-Account %28KeyAcc%29 Layout</members>
+      <members>Account-TCB-WB-Account %28KeyAccReadonly%29 Layout</members>
+      <members>Account-TCB-WB-Account %28KeyEntity%29 Layout</members>
+      <members>Account-TCB-WB-Account %28KeyEntityReadonly%29 Layout</members>
+      <members>Account-TCB-WB-Account %28Normal%29 Layout</members>
+      <members>Account-TCB-WB-Account %28NormalReadonly%29 Layout</members>
+      <members>Account-TCB-WB-Account %28Special%29 Layout</members>
+      <members>Account-TCB-WB-Account %28SpecialReadonly%29 Layout</members>
+      <members>FinServ__AccountAccountRelation__c-TCB BB Account Account Relationship Layout</members>
+      <members>FinServ__AccountAccountRelation__c-TCB RBG Account Account Relationship Layout</members>
+      <members>FinServ__AccountAccountRelation__c-TCB WB Account Account Relationship Layout</members>
+		<members>T24_Account__c-T24 BB Account Layout</members>
+		<members>T24_Account__c-T24 Retail Account Layout</members>
+		<members>T24_Account__c-T24 WB Normal Account Layout</members>
+      <members>Contact-TCB Corporate Contact Layout</members>
+</types>
+<types>
+   <name>LeadConvertSettings</name>
+   <members>LeadConvertSettings</members>
+</types>
+<types>
+   <name>ListView</name> 
+   <members>Lead.BB_Assigned_Leads</members>
+   <members>Opportunity.BB_Opportunity_Expected_Close_Date</members>
+   <members>Opportunity.BB_New_Opportunity_Created_Today</members>
+</types>
+<types>
+   <name>PermissionSet</name> 
+<members>TCB_All_BU_Common_Access</members> 
+</types>
+<types>
+   <name>PermissionSet</name>
+   <members>TCB_Area_Regional_Director_BD</members>
+   <members>TCB_BB_CSM</members>
+   <members>TCB_BB_GTS</members>
+   <members>TCB_BB_HO</members>
+   <members>TCB_BB_HO_sales_Officer_SPCM</members>
+   <members>TCB_BB_RM</members>
+   <members>TCB_RBG_CSO</members>
+   <members>TCB_RBG_Head_of_Omnichannel_HO</members>
+   <members>TCB_RBG_RBG_head</members>
+   <members>TCB_RBG_RBO_PS</members>
+   <members>TCB_RBG_SRBO_PS</members>
+   <members>TCB_WB_BM</members>
+   <members>TCB_WB_RM</members>
+   <members>TCB_All_BU_Common_Access</members>
+</types>
+<types>
+   <name>PermissionSetGroup</name>
+<members>TCB_Mandatory_All_BU_PSG</members>
+</types>
+<types>
+   <name>RecordType</name>
+   <members>Opportunity.TCB_RB_Credit_Card</members> 
+   <members>Case.TCB_CM_Service_Request</members>
+   <members>Case.TCB_CM_Complaint</members>
+   <members>Case.TCB_GTS_Service_Request</members>
+</types>
+<types>
+   <name>Report</name> 
+   <members>TCB_BB/BB_Converted_Lead_Last_7_Days_MV3</members> 
+</types>
+<types>
+   <name>SharingRules</name>
+   <members>Account</members>
+   <members>Case</members>
+</types>
+<types>
+   <name>ValidationRule</name>
+   <members>Lead.TCB_Lead_Transfer_Validation</members>
+   <members>Task.TCB_Validation</members>
+   <members>Opportunity.TCB_BB_RM_Only_Products</members>
+</types>
 <version>54.0</version>
 </Package>

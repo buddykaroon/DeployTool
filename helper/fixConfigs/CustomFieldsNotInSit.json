@@ -20,12 +20,9 @@
             "Task.Owner_Region__c", 
             "Task.Owner_Team__c", 
             "AccountContactRelation.Role__c", 
-            "Case.Inbound_Email__c", 
-            "FinServ__AccountAccountRelation__c.Roles__c", 
-            "Lead.Current_Owner_is_Creator__c",
-            "Lead.Bypass_Validation__c",
-            "Case.Account_Record_Type__c",
-            "Case.Owner_Top_Parent_Role__c"
+            "AccountContactRelation.Roles__c", 
+            "AccountContactRelation.Role_Group__c", 
+            "Case.Inbound_Email__c"
         ]
     }
 ]
